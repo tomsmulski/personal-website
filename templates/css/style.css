@@ -2,22 +2,6 @@ html {
     overflow-x: hidden;
 }
 
-
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section {
-    display: block;
-}
-
 hr {
     box-sizing: content-box;
     height: 0;
@@ -56,17 +40,6 @@ a {
     text-decoration: none;
 }
 
-.ts-clear-both {
-    clear: both;
-}
-
-.ts-left {
-    float: left;
-}
-
-.ts-right {
-    float: right;
-}
 
 .ts-center {
     text-align: center;
@@ -80,7 +53,7 @@ a {
     text-decoration: none;
 }
 
-.ts-flex-container-column {
+.ts-flex-container {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
