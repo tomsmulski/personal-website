@@ -1,0 +1,105 @@
+html {
+    overflow-x: hidden;
+}
+
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+    display: block;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+html,
+body {
+    font-family: Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+
+
+nav {
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ts-clear-both {
+    clear: both;
+}
+
+.ts-left {
+    float: left;
+}
+
+.ts-right {
+    float: right;
+}
+
+.ts-center {
+    text-align: center;
+}
+
+.ts-circle {
+    border-radius: 50%;
+}
+
+.ts-no-deco {
+    text-decoration: none;
+}
+
+.ts-flex-container-column {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.ts-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.ts-list-style-none {
+    list-style: none;
+}
